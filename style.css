@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Love Marker';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Love Marker'),
+         url('fonts/LoveMarker.ttf') format('truetype');
+}
+
+html {
+    justify-content: center;
+    align-content: center;
+}
+
+body {
+    text-align: center;
+    background-image: url('AdobeStock_429119301.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Love Marker';
+}
+
+
+h1 {
+    text-align: center center;
+    padding-top: 25px;
+    font-size: 36px;
+    font-weight: 100px;
+}
+
+h3 {
+    text-align: center center;
+    padding-top: 25px;
+    font-size: 24px;
+    font-weight: 50px;
+}
+
+button#rock,
+button#paper,
+button#scissors {
+    width: 100px;
+    height: 100px;
+    background-color: lightgoldenrodyellow;
+    border-color: black;
+    border-radius: 50px;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+p#player, 
+p#computer {
+    font-size: 12px;
+
+}
+
+p#roundResult {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+p#gameResult {
+    font-size: 14px; 
+    font-weight: bold;
+}
+
+div.wrapper {
+    padding-top: 25px;
+    font-size: 8px;
+    flex-flow: row wrap;
+    display: inline;
+}
+
+button#reset {
+    font-family: 'Love Marker';
+    font-size: 10px;
+    border-color: black;
+    background-color: #fafad2;
+    margin-top: 25px;
+}
